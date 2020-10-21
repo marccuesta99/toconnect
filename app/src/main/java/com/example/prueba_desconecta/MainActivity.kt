@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
     }
     fun EmpezarAct(view: View){
-        Intent i = new Intent(this, Expira);
+        val i = Intent(this, Expira::class.java);
         startActivity(i);
     }
 
