@@ -18,9 +18,15 @@ class MainActivity : AppCompatActivity() {
 
     }
     fun EmpezarAct(view: View){
+        val r = Intent(this, Inspira::class.java);
+        startActivity(r);
+        Thread.sleep(2000);
+        val j = Intent(this, Aguanta::class.java);
+        startActivity(j);
+        Thread.sleep(2000);
         val i = Intent(this, Expira::class.java);
         startActivity(i);
     }
 
-
+//probando//
 }
