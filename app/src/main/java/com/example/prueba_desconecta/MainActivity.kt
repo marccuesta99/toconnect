@@ -18,7 +18,8 @@ class MainActivity : AppCompatActivity() {
 
     }
     fun EmpezarAct(view: View){
-        Intent i = new Intent(this, )
+        Intent i = new Intent(this, Expira);
+        startActivity(i);
     }
 
 
