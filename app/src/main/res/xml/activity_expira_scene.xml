@@ -9,6 +9,8 @@
         motion:duration="1000">
        <KeyFrameSet>
        </KeyFrameSet>
+        <OnClick motion:targetId="@+id/imageView2" />
+        <OnClick motion:targetId="@+id/imageView2" />
     </Transition>
 
     <ConstraintSet android:id="@+id/start">

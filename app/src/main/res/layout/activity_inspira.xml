@@ -4,14 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:visibility="visible"
     app:layoutDescription="@xml/activity_inspira_scene"
     tools:context=".Inspira">
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/inspira"
-        tools:layout_editor_absoluteX="117dp"
-        tools:layout_editor_absoluteY="247dp" />
+        android:id="@+id/imageView5"
+        android:layout_width="256dp"
+        android:layout_height="265dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/inspira" />
 </androidx.constraintlayout.motion.widget.MotionLayout>
