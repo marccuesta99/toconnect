@@ -33,6 +33,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
     def nav_version = "2.3.0"
 
     // Java language implementation
@@ -49,4 +50,15 @@ dependencies {
     // Testing Navigation
     androidTestImplementation "androidx.navigation:navigation-testing:$nav_version"
 
+    //RecyclerView
+    implementation 'com.android.support:recyclerview-v7:26.1.0'
+
+    //convertidor de JSON a objetos java
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+
+    //adaptador Retrofit para RxJava
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+
+    //Rx
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.2'
 }
