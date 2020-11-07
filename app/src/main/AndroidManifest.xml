@@ -21,9 +21,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Descubre"></activity>
-        <activity android:name=".Dibuja" />
+        <activity android:name=".Asocia"></activity>
+        <activity android:name=".Concentra" />
+        <activity android:name=".Revisita" />
+        <activity android:name=".Escribe" />
         <activity android:name=".Desconecta" />
+        <activity android:name=".Crea" />
+        <activity android:name=".Descubre" />
+        <activity android:name=".Dibuja" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

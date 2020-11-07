@@ -6,8 +6,21 @@
     android:layout_height="match_parent"
     tools:context=".Descubre">
 
+    <Button
+        android:id="@+id/buttondraw"
+        android:layout_width="193dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="56dp"
+        android:backgroundTint="@color/colorSecundary"
+        android:text="@string/next"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbardescubre"
+        android:id="@+id/toolbardraw"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="?attr/colorPrimary"
@@ -21,23 +34,70 @@
 
     <ImageView
         android:id="@+id/testmap"
-        android:layout_width="302dp"
-        android:layout_height="322dp"
-        android:layout_marginTop="184dp"
+        android:layout_width="328dp"
+        android:layout_height="278dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="testing"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/discoverDesciption"
         app:srcCompat="@drawable/maptest" />
 
     <TextView
         android:id="@+id/dicover"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="116dp"
+        android:layout_marginTop="64dp"
         android:text="@string/discover"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/discoverDesciption"
+        android:layout_width="293dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/discover_description"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dicover" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:cardBackgroundColor="@color/colorSecundaryDark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chosen">
+
+        <TextView
+            android:id="@+id/testdescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Flat Genesis, 1999"
+            android:textAllCaps="true"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorBlack"
+            android:textSize="36sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/chosen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/chosen"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/testmap" />
 </androidx.constraintlayout.widget.ConstraintLayout>

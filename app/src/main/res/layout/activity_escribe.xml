@@ -4,23 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Dibuja">
+    tools:context=".Escribe">
 
     <Button
-        android:id="@+id/buttondraw"
+        android:id="@+id/buttonend"
         android:layout_width="193dp"
         android:layout_height="66dp"
-        android:layout_marginBottom="56dp"
+        android:layout_marginBottom="48dp"
         android:backgroundTint="@color/colorSecundary"
         android:text="@string/next"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbardraw"
+        android:id="@+id/toolbardescubre"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="?attr/colorPrimary"
@@ -33,11 +32,11 @@
         app:navigationIcon="@drawable/ic_baseline_drag_handle_24" />
 
     <TextView
-        android:id="@+id/draw"
+        android:id="@+id/write"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="76dp"
-        android:text="@string/draw"
+        android:text="@string/write"
         android:textColor="@color/colorPrimary"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -45,26 +44,29 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/discoverDesciption"
-        android:layout_width="293dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="20dp"
-        android:text="@string/draw_description"
+        android:id="@+id/writeDescription"
+        android:layout_width="263dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/write_description"
         android:textColor="@color/colorBlack"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/draw" />
+        app:layout_constraintTop_toBottomOf="@+id/write" />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="254dp"
-        android:layout_height="402dp"
-        android:layout_marginStart="106dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="107dp"
+    <EditText
+        android:id="@+id/writeUser"
+        android:layout_width="266dp"
+        android:layout_height="374dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/textview_border"
+        android:hint="Escriu aquí ..."
+        android:inputType="textMultiLine"
+        android:verticalScrollbarPosition="right"
+        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.572"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/discoverDesciption"
-        app:srcCompat="@drawable/draw_cam" />
+        app:layout_constraintTop_toBottomOf="@+id/writeDescription" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

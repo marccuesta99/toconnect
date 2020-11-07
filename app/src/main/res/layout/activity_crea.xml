@@ -4,12 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:visibility="visible"
-    app:layoutDescription="@xml/activity_inspira_scene"
-    tools:context=".Desconecta">
+    tools:context=".Crea">
+
+    <TextView
+        android:id="@+id/create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:text="@string/create"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/buttondisconect"
+        android:id="@+id/buttoncreate"
         android:layout_width="193dp"
         android:layout_height="66dp"
         android:layout_marginBottom="56dp"
@@ -22,7 +32,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbardisconnect"
+        android:id="@+id/toolbarcreate"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="?attr/colorPrimary"
@@ -32,15 +42,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:navigationIcon="@drawable/ic_baseline_drag_handle_24" />
-
-    <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/desconectaImageView"
-        android:layout_width="277dp"
-        android:layout_height="277dp"
-        android:layout_marginTop="196dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/inspira" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
