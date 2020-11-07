@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.MediaStore
 
-class Foto : AppCompatActivity() {
+class Dibuja : AppCompatActivity() {
 
     val REQUEST_IMAGE_CAPTURE = 1
 
@@ -13,7 +13,7 @@ class Foto : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_foto)
+        setContentView(R.layout.activity_dibuja)
     }
     private fun dispatchTakePictureIntent() {
             Intent(MediaStore.ACTION_IMAGE_CAPTURE).also { takePictureIntent ->

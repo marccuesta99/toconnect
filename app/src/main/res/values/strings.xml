@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">prueba-desconecta</string>
+    <string name="welcome">Benvinguts a</string>
+    <string name="colab">Amb la col·laboració de:</string>
+    <string name="next">Següent</string>
+    <string name="discover">Descobreix</string>
 </resources>
