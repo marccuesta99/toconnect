@@ -3,6 +3,7 @@ package com.example.prueba_desconecta
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.provider.MediaStore
 
 class Foto : AppCompatActivity() {
 

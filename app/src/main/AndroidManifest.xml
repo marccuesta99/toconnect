@@ -20,9 +20,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Foto"></activity>
-        <activity android:name=".Inspira" />
-        <activity android:name=".Aguanta" />
-        <activity android:name=".Expira" />
+        <activity android:name=".Desconecta" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
