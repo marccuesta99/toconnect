@@ -15,7 +15,8 @@
     <string name="end">Finalitza</string>
     <string name="music1">associa</string>
     <string name="concentrate_instructions">"Concentra't en l'objecte i escriu les emocions o els conceptes que et genera. "</string>
-    <string name="conectrate">Concentra\'t</string>
-    <string name="instuction_assosiates">Concentra’t en l’objecte i escriu el títol de les cançons o la música que hi connectaries. Si vols tataraleja-les.</string>
+    <string name="concentrate">Concentra\'t</string>
+    <string name="instruction_assosiates">Concentra’t en l’objecte i escriu el títol de les cançons o la música que hi connectaries. Si vols tataraleja-les.</string>
     <string name="associate">Associa</string>
+    <string name="textHint">Escriu aquí</string>
 </resources>

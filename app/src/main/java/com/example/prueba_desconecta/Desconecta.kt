@@ -1,7 +1,9 @@
 package com.example.prueba_desconecta
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import kotlinx.android.synthetic.main.activity_desconecta.*
 import com.airbnb.lottie.LottieAnimationView
 
@@ -12,6 +14,12 @@ class Desconecta : AppCompatActivity() {
 
         desconectaImageView.setOnClickListener {
             inspiraAnimation(desconectaImageView, R.raw.breath)
+        }
+
+        val btn: Button = findViewById(R.id.buttonDesconecta)
+        btn.setOnClickListener{
+            val r = Intent(this, Concentra::class.java)
+            startActivity(r)
         }
     }
 

@@ -7,7 +7,7 @@
     tools:context=".Escribe">
 
     <Button
-        android:id="@+id/buttonend"
+        android:id="@+id/buttonEscribe"
         android:layout_width="193dp"
         android:layout_height="66dp"
         android:layout_marginBottom="48dp"
@@ -60,7 +60,7 @@
         android:layout_height="374dp"
         android:layout_marginTop="24dp"
         android:background="@drawable/textview_border"
-        android:hint="Escriu aquí ..."
+        android:hint="@string/textHint"
         android:inputType="textMultiLine"
         android:verticalScrollbarPosition="right"
         android:visibility="visible"

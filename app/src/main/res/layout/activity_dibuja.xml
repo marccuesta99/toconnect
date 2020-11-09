@@ -7,7 +7,7 @@
     tools:context=".Dibuja">
 
     <Button
-        android:id="@+id/buttondraw"
+        android:id="@+id/buttonDibuja"
         android:layout_width="193dp"
         android:layout_height="66dp"
         android:layout_marginBottom="56dp"

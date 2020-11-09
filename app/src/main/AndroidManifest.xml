@@ -23,7 +23,11 @@
         android:theme="@style/AppTheme">
         <activity android:name=".Asocia"></activity>
         <activity android:name=".Concentra" />
-        <activity android:name=".Revisita" />
+        <activity android:name=".Revisita" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".Escribe" />
         <activity android:name=".Desconecta" />
         <activity android:name=".Crea" />
@@ -32,7 +36,6 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
