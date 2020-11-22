@@ -64,4 +64,8 @@ dependencies {
 
     //Lotty
     implementation 'com.airbnb.android:lottie:3.4.4'
+
+    //QR (no inspectoin Gradle compatible)
+    implementation 'com.google.android.gms:play-services-auth:16.0.0'
+    implementation 'me.dm7.barcodescanner:zxing:1.9'
 }
