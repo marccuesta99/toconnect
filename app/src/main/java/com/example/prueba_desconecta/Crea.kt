@@ -10,7 +10,7 @@ class Crea : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_crea)
 
-        val btn: Button = findViewById(R.id.buttonCreate)
+        val btn: Button = findViewById(R.id.buttonCrea)
         btn.setOnClickListener{
             val r = Intent(this, Revisita::class.java)
             startActivity(r)

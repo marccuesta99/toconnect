@@ -21,19 +21,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Asocia"></activity>
-        <activity android:name=".Concentra" />
-        <activity android:name=".Revisita" >
-            <intent-filter>
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".Escribe" />
-        <activity android:name=".Desconecta" />
-        <activity android:name=".Crea" />
-        <activity android:name=".Descubre" />
-        <activity android:name=".Dibuja" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".QRScanner">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
